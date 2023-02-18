@@ -5,7 +5,7 @@ sidebar_label: "OAuth Setup"
 
 # OAuth
 
-OAuth is a standard protocol that allows users to authorize API access to web and desktop or mobile applications. Once access has been granted, the authorized application can utilize the API on behalf of the user. OAuth has also emerged as a popular mechanism for delegated authentications.
+OAuth2.0 is a standard protocol that allows users to authorize API access to web, desktop and mobile applications. Once access has been granted, the application can utilize the API on behalf of the user.
 
 The only things needed to give your users EVM accounts on any network and integrate with Keyp is:
 
@@ -35,3 +35,8 @@ More options on this coming soon.
 Your app might be built without a backend, and just built on top of smart contracts, like [Juicebox](https://juicebox.money) for example. This makes it more complicated to create logins, because you have no OAuth server running to verify your users are who they say they are. We're currently exploring some solutions for this. If your app has no backend, please reach out to us and we can talk about the additional security implications required for the integration.
 
 Other wallet integrations coming soon.
+
+# Additional Resources
+
+- [OAuth Playground](https://www.oauth.com/playground/)
+- [An Introduction to OAuth2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) by Mitchell Anicas

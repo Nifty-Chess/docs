@@ -13,7 +13,7 @@ Hit endpoint `/oauth` with `provider` = `DISCORD`
 This returns the place to send the user:
 
 ```
-https://oauth.usekeyp.com/?&provider=DISCORD
+https://oauth.UseKeyp.com/?&provider=DISCORD
 ```
 
 ### Custom
