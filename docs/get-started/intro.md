@@ -5,11 +5,9 @@ sidebar_label: "Quick Start"
 
 # Getting Started
 
-Get started by **creating a new Keyp app**.
-
-1. Create a Keyp App in the developer portal
+1. Create an applicaton in the developer portal
 2. Use an OAuth2.0 library to authenticate users (eg. Passport.js)
-3. Use the API endpoints to airdrop tokens to your users
+3. Use the API to airdrop tokens to your users
 
 ## Creating a developer account
 
@@ -17,17 +15,17 @@ Log in to https://dev.UseKeyp.com and sign-in with Google, Discord, or your Ches
 
 ![Login Page](/img/dev-portal-login-page.png)
 
-## Getting an App ID
+## Getting a Client ID
 
-On your developer profile page, select "Create Client", which will create a new Keyp App, and provide the credentials `Client Id`. You can create as many clients as you would like.
+On your developer account page, select "Create Client", which will generate a new `Client ID`. You can create as many clients as you would like.
 
 ![Client Generation](/img/dev-portal-client-gen.gif)
 
 ## Connecting Keyp to your application
 
-Keyp works like other social login providers, using OAuth2.0 to authenticate and give access to user accounts. You can also skip this step and start using the API immediately.
+Keyp works like other social login providers (Google, Facebook, etc.) which use OAuth2.0 to authenticate and give access to user accounts. You can also skip this step and start using the API immediately.
 
-OAuth libraries are available in a variety of languages:
+OAuth libraries are available in a variety of languages and environments:
 
 _JavaScript_
 
@@ -54,7 +52,9 @@ _Everything else_ (Swift, Ruby, Kotlin...)
 
 - See list https://oauth.net/code/
 
-We created a few example Keyp Apps, which you can use to get started:
+### Example applications
+
+We created a few example apps which you can use to get started:
 
 - **ExpressJS** - [usekeyp-example-app-express](https://github.com/UseKeyp/usekeyp-example-app-express/)
 - **RedwoodJS** - [usekeyp-example-app-redwood](https://github.com/UseKeyp/usekeyp-example-app-redwood/)
@@ -65,9 +65,9 @@ Learn more in the [OAuth](/oauth) section.
 
 With a user's Access Token, you can see info about their account, and make certain transactions they've authorized.
 
-To start using the API immediately, copy your own Access Token from your developer profile.
+To start using the API immediately, copy your own Access Token from your developer account.
 
-> Access tokens and clients are network-specific. In order to use other networks besides Matic, you'll need to create a Keyp App, select the desired network, and log in there.
+> Access tokens and clients are network-specific. In order to use other networks besides Polygon, you'll need to create a Keyp App, select the desired network, and log in there.
 
 ![Access Token](/img/dev-portal-access-token.png)
 
