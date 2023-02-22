@@ -27,9 +27,32 @@ On your developer profile page, select "Create Client", which will create a new 
 
 Keyp works like other social login providers, using OAuth2.0 to authenticate and give access to user accounts. You can also skip this step and start using the API immediately.
 
-You can do this using any application framework (React, Node, Express...) or language (JS, Python, Go, Unity...). Here is just a sample of the many libraries available to use:
+OAuth libraries are available in a variety of languages:
 
-- Passport.js [passport-oauth2](https://www.passportjs.org/packages/passport-oauth2/)
+_JavaScript_
+
+- [oauth4webapi](https://github.com/panva/oauth4webapi)
+- [Passport.js](https://www.passportjs.org/packages/passport-oauth2/)
+- [JSO](https://github.com/andreassolberg/jso)
+
+_Java_
+
+- [AppAuth for Android](https://github.com/openid/AppAuth-Android)
+- [oauth2-essentials](https://github.com/dmfs/oauth2-essentials)
+- [ScribeJava](https://github.com/scribejava/scribejava)
+- [pac4j-oauth](https://www.pac4j.org/docs/clients/oauth.html)
+
+_C++_
+
+- [O2](https://github.com/pipacs/o2)
+
+_Unity_
+
+- [Unity Authentication](https://docs.unity.com/authentication/en/manual/PlatformSignInOpenIDConnect)
+
+_Everything else_ (Swift, Ruby, Kotlin...)
+
+- See list https://oauth.net/code/
 
 We created a few example Keyp Apps, which you can use to get started:
 
@@ -40,14 +63,18 @@ Learn more in the [OAuth](/oauth) section.
 
 ## Using the API to move tokens
 
-With a user's _access token_, you can see info about their account, and make certain transactions they've authorized.
+With a user's Access Token, you can see info about their account, and make certain transactions they've authorized.
 
-To test immediately, copy the Access Token
+To start using the API immediately, copy your own Access Token from your developer profile.
+
+> Access tokens and clients are network-specific. In order to use other networks besides Matic, you'll need to create a Keyp App, select the desired network, and log in there.
 
 ![Access Token](/img/dev-portal-access-token.png)
 
-To help you test the API, we created a Postman Workspace:
+We created a Postman Workspace for your convenience. Under "Environment", enter your access token for the variable `ACCESS_TOKEN`.
 
-[Keyp Public Workspace](https://www.postman.com/speeding-spaceship-663022/workspace/keyp-public-workspace/collection/25667367-e1156fb2-60c3-4a42-b76b-47902a22512e?ctx=documentation)
+- Postman [Keyp Public Workspace](https://www.postman.com/speeding-spaceship-663022/workspace/keyp-public-workspace/collection/25667367-e1156fb2-60c3-4a42-b76b-47902a22512e?ctx=documentation)
 
-All you need is your acc
+![Postman Environment](/img/dev-portal-postman-environment.png)
+
+Now you can begin receiving and sending tokens to your Wallet on Matic network.
