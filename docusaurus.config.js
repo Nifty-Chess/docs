@@ -83,7 +83,7 @@ const config = {
             position: "left",
           },
           {
-            href: "https://blog.usekeyp.com",
+            href: "https://usekeyp.com/blog",
             label: "Blog",
             position: "right",
           },
