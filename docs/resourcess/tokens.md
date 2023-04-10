@@ -1,0 +1,115 @@
+---
+sidebar_position: 2
+sidebar_label: "Tokens and Currencies"
+---
+
+# Tokens and Currencies Supported
+
+We support all ERC20, ERC721, and ERC115 tokens on all of our networks. We've included a helpful reference below to help you get started faster. 
+
+## Ethereum
+
+|     | Name                | Symbol |  CurrencyType   |    Usage     | Decimals | Address                                    |
+| --- | :------------------ | :----: | :-------------: | :----------: | :------: | ------------------------------------------ |
+| 1   | Ethereum            |  ETH   | `ETHEREUM_ETH`  | Network Coin |    18    |                                            |
+| 2   | Dai Stablecoin v2.0 |  DAI   | `ETHEREUM_DAI`  |  Stablecoin  |    18    | 0x6B175474E89094C44Da98b954EedeAC495271d0F |
+| 3   | USD Coin            |  USDC  | `ETHEREUM_USDC` |  Stablecoin  |    6     | 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 |
+
+## Polygon
+
+|     | Name                | Symbol |  CurrencyType   |    Usage     | Decimals | Address |
+| --- | :------------------ | :----: | :-------------: | :----------: | :------: | ------- |
+| 1   | Matic               | MATIC  | `POLYGON_MATIC` | Network Coin |    18    |         |
+| 2   | Dai Stablecoin v2.0 |        |  `POLYGON_DAI`  |  Stablecoin  |    18    |         |
+| 3   | USD Coin            |        | `POLYGON_USDC`  |  Stablecoin  |    6     |         |
+
+## Mumbai
+
+|     | Name            | Symbol |  CurrencyType  |     Usage     | Decimals |                  Address                   |
+| --- | :-------------- | :----: | :------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Mumbai          | MATIC  | `MUMBAI_MATIC` | Network Coin  |    18    |                                            |
+| 2   | Wrapped Ether   |  WETH  | `MUMBAI_WETH`  | Wrapped Token |    18    | 0xd8bD0a1cB028a31AA859A21A3758685a95dE4623 |
+| 3   | Wrapped Bitcoin |  WBTC  | `MUMBAI_WBTC`  | Wrapped Token |    8     | 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 |
+| 4   | Dai Stablecoin  |  DAI   |  `MUMBAI_DAI`  |  Stablecoin   |    18    | 0x001B3B4d0F3714Ca98ba10F6042DaEbf0B1B7b6F |
+| 5   | USD Coin        |  USDC  | `MUMBAI_USDC`  |  Stablecoin   |    6     | 0x2058A9D7613eEE744279e3856Ef0eAda5FCbaA7e |
+
+## Gnosis
+
+|     | Name                 | Symbol | CurrencyType |     Usage      | Decimals |                  Address                   |
+| --- | :------------------- | :----: | :----------: | :------------: | :------: | :----------------------------------------: |
+| 1   | Gnosis Token         |  GNO   | `GNOSIS_GNO` | Gnosis Network |    18    | 0x6810e776880C02933D47DB1b9fc05908e5386b96 |
+| 2   | DutchX Token         |  DXD   | `GNOSIS_DXD` | Gnosis Network |    18    | 0x516E5436bA2c2Ba0d936719A10D786cH5f09aBFf |
+| 3   | GnosisDAO Governance |  GNO   | `GNOSIS_GNO` |   Governance   |    18    | 0x5f3b5DfEb7B28CDbD7FAba78963EE202a494e2A2 |
+
+## Goerli
+
+|     | Name           | Symbol | CurrencyType  |    Usage     | Decimals |                  Address                   |
+| --- | :------------- | :----: | :-----------: | :----------: | :------: | :----------------------------------------: |
+| 1   | ethereum       |  ETH   | `GOERLI_ETH`  | Network Coin |    18    |                                            |
+| 3   | DAI Stablecoin |  DAI   | `GOERLI_DAI`  |  Stablecoin  |    18    | 0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8 |
+| 4   | USD Coin       |  USDC  | `GOERLI_USDC` |  Stablecoin  |    6     | 0x07865c6E87B9F70255377e024ace6630C1Eaa37F |
+
+## Optimism
+
+|     | Name                     | Symbol |   CurrencyType   |     Usage     | Decimals |                  Address                   |
+| --- | :----------------------- | :----: | :--------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Optimistic Ethereum      |  oETH  | `OPTIMISM_OETH`  | Network Coin  |    18    | 0x4200000000000000000000000000000000000006 |
+| 2   | Optimistic Wrapped Ether | owETH  | `OPTIMISM_OWETH` | Wrapped Token |    18    | 0x4200000000000000000000000000000000000007 |
+
+## Optimism-Goerli
+
+|     | Name                     | Symbol |      CurrencyType       |     Usage     | Decimals |                  Address                   |
+| --- | :----------------------- | :----: | :---------------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Optimistic Ethereum      |  oETH  | `OPTIMISM_GOERLI_OETH`  | Network Coin  |    18    |                                            |
+| 2   | Optimistic Wrapped Ether | owETH  | `OPTIMISM_GOERLI_OWETH` | Wrapped Token |    18    | 0x4200000000000000000000000000000000000007 |
+
+## Arbitrum
+
+|     | Name                  | Symbol |  CurrencyType   |     Usage     | Decimals |                  Address                   |
+| --- | :-------------------- | :----: | :-------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Arbitrum Native Token |  ETH   | `ARBITRUM_ETH`  | Network Coin  |    18    |                                            |
+| 2   | Wrapped Ether         |  WETH  | `ARBITRUM_WETH` | Wrapped Token |    18    | 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1 |
+| 3   | Dai Stablecoin        |  DAI   | `ARBITRUM_DAI`  |  Stablecoin   |    18    | 0xF8fF43E991A81e6eC886a3D281A2C6cC19aE70Fc |
+| 4   | USD Coin              |  USDC  | `ARBITRUM_USDC` |  Stablecoin   |    6     | 0xff970A61A04b1cA14834A43f5dE4533eBDDB5CC8 |
+
+## Arbitrum-Nova
+
+|     | Name                  | Symbol |     CurrencyType     |     Usage     | Decimals |                  Address                   |
+| --- | :-------------------- | :----: | :------------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Arbitrum Native Token |  ETH   | `ARBITRUM_NOVA_ETH`  | Network Coin  |    18    |                                            |
+| 2   | Wrapped Ether         |  WETH  | `ARBITRUM_NOVA_WETH` | Wrapped Token |    18    | 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1 |
+| 3   | Dai Stablecoin        |  DAI   | `ARBITRUM_NOVA_DAI`  |  Stablecoin   |    18    | 0xF8fF43E991A81e6eC886a3D281A2C6cC19aE70Fc |
+| 4   | USD Coin              |  USDC  | `ARBITRUM_NOVA_USDC` |  Stablecoin   |    6     | 0xff970A61A04b1cA14834A43f5dE4533eBDDB5CC8 |
+
+## Sepolia
+
+|     | Name                  | Symbol |   CurrencyType   |     Usage     | Decimals |                  Address                   |
+| --- | :-------------------- | :----: | :--------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Wrapped Matic Token   | WMATIC | `SEPOLIA_WMATIC` | Wrapped Token |    18    | 0x9678E42ceBEb63F23197D726B29b1CB20d0064E4 |
+| 2   | Sepolia Network Token |  SPL   |  `SEPOLIA_SPL`   | Network Coin  |    18    | 0x48E9d9A8e2021b35a6112114ad7847687aBbB4f4 |
+| 3   | Wrapped Ether         |  WETH  |  `SEPOLIA_WETH`  | Wrapped Token |    18    | 0x00924d25CE13c5B5fdcC50DD8ec423096EdfB5e5 |
+| 4   | DAI Stablecoin        |  DAI   |  `SEPOLIA_DAI`   |  Stablecoin   |    18    | 0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063 |
+| 5   | USD Coin              |  USDC  |  `SEPOLIA_USDC`  |  Stablecoin   |    6     | 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174 |
+| 6   | YFI.finance           |  YFI   |  `SEPOLIA_YFI`   | Yield Farming |    18    | 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e |
+
+## Avalanche
+
+|     | Name            | Symbol |   CurrencyType   |     Usage     | Decimals |                  Address                   |
+| --- | :-------------- | :----: | :--------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Avalanche       |  AVAX  | `AVALANCHE_AVAX` | Network Coin  |    18    |                                            |
+| 2   | Wrapped Bitcoin |  WBTC  | `AVALANCHE_WBTC` | Wrapped Token |    8     | 0x50b7545627a5162F82A992c33b87aDc75187B218 |
+| 3   | Wrapped Ether   |  WETH  | `AVALANCHE_WETH` | Wrapped Token |    18    | 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7 |
+| 4   | Pangolin        |  PNG   | `AVALANCHE_PNG`  |  Governance   |    18    | 0x60781C2586D68229fde47564546784ab3fACA982 |
+| 5   | Dai Stablecoin  |  DAI   | `AVALANCHE_DAI`  |  Stablecoin   |    18    | 0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a |
+| 6   | USD Coin        |  USDC  | `AVALANCHE_USDC` |  Stablecoin   |    6     | 0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664 |
+
+## Avalanche-Fuji
+
+|     | Name            | Symbol |     CurrencyType      |     Usage     | Decimals |                  Address                   |
+| --- | :-------------- | :----: | :-------------------: | :-----------: | :------: | :----------------------------------------: |
+| 1   | Avalanche       |  AVAX  | `AVALANCHE_FUJI_AVAX` | Network Coin  |    18    |                                            |
+| 2   | Wrapped Bitcoin |  WBTC  | `AVALANCHE_FUJI_WBTC` | Wrapped Token |    8     | 0x50b7545627a5162F82A992c33b87aDc75187B218 |
+| 3   | Wrapped Ether   |  WETH  | `AVALANCHE_FUJI_WETH` | Wrapped Token |    18    | 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7 |
+| 4   | Pangolin        |  PNG   | `AVALANCHE_FUJI_PNG`  |  Governance   |    18    | 0x60582e50ceA34Ad4E84c8a8b3c3ECC293E1fAf2B |
+| 5   | USDT Stablecoin |  USDT  | `AVALANCHE_FUJI_USDT` |  Stablecoin   |    6     | 0x9EF0Ad5c5f1C90F02d55BEbD16bEDa97c5c54944 |
+| 6   | USD Coin        |  USDC  | `AVALANCHE_FUJI_USDC` |  Stablecoin   |    6     | 0xFa7c34183Cb1d12A99B19C14659b8F2b1401A8f9 |

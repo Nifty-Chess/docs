@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: "Networks Supported"
+sidebar_label: "Networks"
 ---
 
 # Networks Supported
