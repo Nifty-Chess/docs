@@ -58,6 +58,8 @@ Otherwise, select a token using its network and address.
 | Name                     |  `CurrencyType`  |     Usage     | Decimals |                  Address                   |
 | :----------------------- | :--------------: | :-----------: | :------: | :----------------------------------------: |
 | Optimistic Ethereum      | `OPTIMISM_OETH`  | Network Coin  |    18    | 0x4200000000000000000000000000000000000006 |
+| DAI | `OPTIMISM_DAI` Stablecoin | 18 | |
+| USD Coin | `OPTIMISM_USDC` Stablecoin | 6 | |
 | Optimistic Wrapped Ether | `OPTIMISM_OWETH` | Wrapped Token |    18    | 0x4200000000000000000000000000000000000007 |
 
 ## Optimism-Goerli
