@@ -11,7 +11,8 @@ Currently, the SDK supports the following:
 - Plugin for logging into Keyp and persisting session data with NextAuth.js
 - Helper function for signing in using Keyp and NextAuth.js
 - Helper function for ERC20 and ERC721 token transfers
-- Axios client for easily making requests to Keyp's API 
+- Helper functions for reading and writing to smart contracts
+- Axios client for easily making requests to Keyp's API
 
 ## Usage 📖
 
@@ -66,6 +67,32 @@ const data = {
 }
 
 const res = await tokenTransfer(data)
+```
+
+Easy smart contract interactions
+
+```js
+import { readContract, writeContract } from "@usekeyp/js-sdk";
+import { useSession } from "next-auth/react";
+const { data: session } = useSession();
+
+// Read from a smart contract
+const result = await readContract(
+    {
+        accessToken: session?.user.accessToken,
+        address: "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        abi: "balanceOf(address) public view returns (uint256)",
+        args: ['0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063'],
+    });
+
+// Write to a smart contract
+const result = await writeContract(
+    {
+        accessToken: session?.user.accessToken,
+        address: "0x55d4dfb578daa4d60380995fff7a706471d7c719",
+        abi: "pay(uint256,uint256,address) public returns (bool success)",
+        args: ['1', '10000000', '0x9ca6a77c8b38159fd2da9bd25bc3e259c33f5e39'],
+    });
 ```
 
 Easy API requests with keypClient, a helper for your axios requests
