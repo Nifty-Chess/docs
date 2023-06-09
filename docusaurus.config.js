@@ -62,7 +62,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus.png',
+      image: "img/docs-og-image-1200x630.png",
       navbar: {
         logo: {
           alt: "Keyp Logo",
