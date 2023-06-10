@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: "@usekeyp/ui-kit"
 ---
 
@@ -48,7 +48,7 @@ const App = ({ Component, pageProps }) => {
 </details>
 
 <details>
-  <summary>Create React App (CRA)</summary>
+  <summary>React</summary>
 
 1. Install dependencies with `yarn install` or `npm install`
 2. Configure Webpack:
