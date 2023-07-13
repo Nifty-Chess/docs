@@ -5,17 +5,11 @@ sidebar_label: "/nfts"
 
 # /nfts
 
+## Read
+
 ### GET `/nfts/:userId`
 
 Get the NFTs owned by a user
-
-### Network
-
-You do not need to specify a network since your application is  network-specific.
-
-## Read
-
-### POST `/contracts/method/read`
 
 Example request
 
