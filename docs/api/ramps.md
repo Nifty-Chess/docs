@@ -9,6 +9,8 @@ The ramp API is experimental, therefore we recommend using the widget provided i
 
 ![Onramper Widget](/img/onramp.png)
 
+By default, assets are available only on Polygon network. To purchase on other networks, update the URL to include a query parameter for `network`. For example https://app.kaching.money/ramp?network=mainnet. The network identifier should be selected from the onramper docs here: https://docs.onramper.com/docs/coverage-network
+
 ## Ramps Available
 
 | Provider   |  RampType  |  On   | Off |
